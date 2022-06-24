@@ -6,9 +6,11 @@ import routes from './App/routes';
 import { Suspense, useState } from 'react';
 //NotFoundPage
 import './App.css';
+import Skills from './containers/Skills/Skills';
 
 const components = {
   home: <Home />,
+  Skills: <Skills />
   // about: <About />,
 };
 

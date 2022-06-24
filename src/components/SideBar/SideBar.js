@@ -15,7 +15,12 @@ export default function SideBar({ handleToggleNav, showNav }) {
       <div className={`${styles.sideBar} hidden md:block top-0 left-0 w-64 h-screen`}>
         <section>
           {routes.map(({ label, path, renderInSideBar }, i) => (
-            <CustomLink key={i} render={renderInSideBar} to={path} label={label} />
+            <CustomLink
+              key={i}
+              to={path}
+              label={label}
+              render={renderInSideBar}
+            />
           ))}
         </section>
         <Socials />

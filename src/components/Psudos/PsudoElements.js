@@ -6,7 +6,7 @@ const styles = {
 
 export default function PsudoElements({ elem, classNames }) {
   return (
-    <div className={`text-psudoElemColor absolute ${classNames} italic text-5xl z-50`} style={styles}>
+    <div className={`text-psudoElemColor absolute ${classNames} italic text-4xl z-50`} style={styles}>
       {elem}
     </div>
   )
