@@ -1,0 +1,12 @@
+.symbol {
+  font-size: 7rem;
+
+  & span:nth-of-type(2) {
+    margin-left: -2.4rem;
+    transform: rotate(2deg) skew(-38deg, 0) translate(-6px, 3px) scale(.9);
+    transform-origin: unset;
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+  }
+}

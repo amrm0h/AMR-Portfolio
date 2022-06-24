@@ -1,0 +1,20 @@
+.mobileLogo {
+  font-family: 'Gwendolyn', cursive;
+  box-shadow: 0 0 .6rem .2rem white;
+}
+
+.navMenu {
+  background-color: #181818;
+  box-shadow: 0 0 0.9rem 0.3rem;
+
+  a {
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &>div:not(:last-of-type) {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+  }
+}
